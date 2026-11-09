@@ -1,0 +1,185 @@
+{
+  "options": [
+    {
+      "id": "start",
+      "title": {
+        "en": "Grove Classroom Setup",
+        "es": "Configuración del aula Grove"
+      },
+      "type": "choice",
+      "choices": [
+        {
+          "id": "main_computer",
+          "title": {
+            "en": "💻 Use the Main Computer",
+            "es": "💻 Usar la computadora principal"
+          },
+          "description": {
+            "en": "I want to use the computer already in the room",
+            "es": "Quiero usar la computadora que ya está en la sala"
+          }
+        },
+        {
+          "id": "mirror_cast",
+          "title": {
+            "en": "📺 Mirror Cast My Laptop",
+            "es": "📺 Transmitir mi computadora portátil"
+          },
+          "description": {
+            "en": "I want to mirror cast my own laptop to the screen",
+            "es": "Quiero transmitir mi propia computadora portátil a la pantalla"
+          }
+        }
+      ],
+      "steps": {
+        "main_computer": [
+          {
+            "instruction": {
+              "en": "First, let's pull down our screen for the projector. Pull the screen down pass the whiteboard and then once you let go, it should auto lock itself in place.",
+              "es": "Primero, bajemos nuestra pantalla para el proyector. Tire de la pantalla hacia abajo pasando la pizarra y, una vez que la suelte, debería bloquearse automáticamente en su lugar."
+            },
+            "video_url": "https://drive.google.com/file/d/1J9E4P4PwfOM-UuHxJgLl2jwDQmBbrUuq/view?usp=sharing",
+            "alt": {
+              "en": "Video showing the scrim being brought down for the projector.",
+              "es": "Video que muestra cómo se baja la pantalla de proyección."
+            }
+          },
+          {
+            "instruction": {
+              "en": "Now, let's turn on the projector. Look for a white remote in the remote caddy on the wall to the right of the projector screen. Point it at the projector behind you and turn it on. Once you hear a load beep sound, give the projector some time to heat up and display on the screen.",
+              "es": "Ahora, encendamos el proyector. Busque un control remoto blanco en el soporte para controles en la pared a la derecha de la pantalla del proyector. Apúntelo al proyector detrás de usted y enciéndalo. Una vez que escuche un pitido fuerte, dele tiempo al proyector para calentarse y mostrar la imagen en la pantalla."
+            },
+            "video_url": "https://drive.google.com/file/d/1By_Aag9m5yuufwVqKhec1UnQhD4eAuM3/view?usp=sharing",
+            "alt": {
+              "en": "Video showing how to turn the projector on",
+              "es": "Video que muestra cómo encender el proyector"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Using the same remote, change the input to 'HDMI 1'. Point the remote at the projector and hit the HDMI button, press the button until you see 'HDMI 1' showing on the bottom right of the screen.",
+              "es": "Usando el mismo control remoto, cambie la entrada a 'HDMI 1'. Apunte el control remoto al proyector y presione el botón HDMI, presione el botón hasta que vea 'HDMI 1' en la parte inferior derecha de la pantalla."
+            },
+            "video_url": "https://drive.google.com/file/d/1TIEqLWn7OAuVcofa9f1Mq-t-LbWKWphb/view?usp=sharing",
+            "alt": {
+              "en": "Video showing how change the input to HDMI 1 with the remote",
+              "es": "Video que muestra cómo cambiar la entrada a HDMI 1 con el control remoto"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Turn you attention to the computer on the right wall. Check to see that it is powered on. If the red button on top is not lit up, push the red button to turn the Main Computer on.",
+              "es": "Dirija su atención a la computadora en la pared derecha. Verifique que esté encendida. Si el botón rojo en la parte superior no está iluminado, presione el botón rojo para encender la computadora principal."
+            },
+            "image": "GRO.MainComputer.jpg",
+            "alt": {
+              "en": "Image showing the Grove Main Computer",
+              "es": "Imagen que muestra la computadora principal de Grove"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Now look for the Grove Classroom Keyboard. It looks like this and is typically by the remote caddy area hooked to the wall.",
+              "es": "Ahora busque el teclado del aula Grove. Se ve así y por lo general está cerca del área del soporte para controles conectado a la pared."
+            },
+            "image": "GRO.ClassroomKeyboard.jpg",
+            "alt": {
+              "en": "Image showing the Grove Classroom Keyboard",
+              "es": "Imagen que muestra el teclado del aula Grove"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Make sure that the keyboard is turned on. The switch is located on the top side of the keyboard.",
+              "es": "Asegúrese de que el teclado esté encendido. El interruptor está ubicado en la parte superior del teclado."
+            },
+            "image": "GRO.KeyboardON.jpg",
+            "alt": {
+              "en": "Image showing the Grove Classroom Keyboard switch as ON",
+              "es": "Imagen que muestra el interruptor del teclado del aula Grove en ENCENDIDO"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Now, let's excercise this next step with the most precaution! This is to ensure that your audio is working correctly for the computer. The bottom side of the computer on the wall has a light grey cable conencted to it. Now there are already a bunch of different shades of grey cables (I apologize for this), try to pull the one that shows in the video. VERY CAREFULLY disconnect the cable and reconnect it, like so. ",
+              "es": "¡Ahora, realicemos este siguiente paso con la mayor precaución! Esto es para asegurar que su audio funcione correctamente en la computadora. El lado inferior de la computadora en la pared tiene un cable gris claro conectado. Ya hay varios tonos diferentes de cables grises (me disculpo por esto), intente tirar del que se muestra en el video. Desconecte y vuelva a conectar el cable CON MUCHO CUIDADO, de esta manera."
+            },
+            "video_url": "https://drive.google.com/file/d/1QrMxB8FbSvClYCNmxhQHur8MoTYL0bKj/view?usp=sharing",
+            "alt": {
+              "en": "Video showing what usb cable to disconenct and connect for audio",
+              "es": "Video que muestra qué cable USB desconectar y conectar para el audio"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Try moving the mouse around or click on keys on the keyboard. Now click on 'Other User' on the bottom left and sign into your profile!",
+              "es": "Intente mover el mouse o presione teclas en el teclado. ¡Ahora haga clic en 'Otro usuario' en la parte inferior izquierda e inicie sesión en su perfil!"
+            },
+            "image": "GRO.OtherUserLogin.jpg",
+            "alt": {
+              "en": "Pic displaying the 'Other Users' log in screen on the Main TV",
+              "es": "Imagen que muestra la pantalla de inicio de sesión de 'Otros usuarios' en la TV principal"
+            }
+          }
+        ],
+        "mirror_cast": [
+          {
+            "instruction": {
+              "en": "First, let's pull down our screen for the projector. Pull the screen down pass the whiteboard and then once you let go, it should auto lock itself in place.",
+              "es": "Primero, bajemos nuestra pantalla para el proyector. Tire de la pantalla hacia abajo pasando la pizarra y, una vez que la suelte, debería bloquearse automáticamente en su lugar."
+            },
+            "video_url": "https://drive.google.com/file/d/1J9E4P4PwfOM-UuHxJgLl2jwDQmBbrUuq/view?usp=sharing",
+            "alt": {
+              "en": "Video showing the scrim being brought down for the projector.",
+              "es": "Video que muestra cómo se baja la pantalla de proyección."
+            }
+          },
+          {
+            "instruction": {
+              "en": "Now, let's turn on the projector. Look for a white remote in the remote caddy on the wall to the right of the projector screen. Point it at the projector behind you and turn it on. Once you hear a load beep sound, give the projector some time to heat up and display on the screen.",
+              "es": "Ahora, encendamos el proyector. Busque un control remoto blanco en el soporte para controles en la pared a la derecha de la pantalla del proyector. Apúntelo al proyector detrás de usted y enciéndalo. Una vez que escuche un pitido fuerte, dele tiempo al proyector para calentarse y mostrar la imagen en la pantalla."
+            },
+            "video_url": "https://drive.google.com/file/d/1By_Aag9m5yuufwVqKhec1UnQhD4eAuM3/view?usp=sharing",
+            "alt": {
+              "en": "Video showing how to turn the projector on",
+              "es": "Video que muestra cómo encender el proyector"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Using the same remote, change the input to 'HDMI 2'. Point the remote at the projector and hit the HDMI button, press the button until you see 'HDMI 2' showing on the bottom right of the screen.",
+              "es": "Usando el mismo control remoto, cambie la entrada a 'HDMI 2'. Apunte el control remoto al proyector y presione el botón HDMI, presione el botón hasta que vea 'HDMI 2' en la parte inferior derecha de la pantalla."
+            },
+            "video_url": "https://drive.google.com/file/d/1LYRDuf4SznW6w5mZisE9jFGO8_xjZtvZ/view?usp=sharing",
+            "alt": {
+              "en": "Video showing how change the input to HDMI 2 with the remote",
+              "es": "Video que muestra cómo cambiar la entrada a HDMI 2 con el control remoto"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Now, follow the on-screen instructions on the TV or your laptop to begin mirror casting. Make sure your laptop is connected to the 'MRNY' wifi network.",
+              "es": "Ahora, siga las instrucciones en pantalla en la TV o en su computadora portátil para comenzar la transmisión. Asegúrese de que su computadora portátil esté conectada a la red wifi 'MRNY'."
+            },
+            "image": "GRO.J5ScreenCast.jpg",
+            "alt": {
+              "en": "Pic displaying the mirror casting screen",
+              "es": "Imagen que muestra la pantalla de transmisión"
+            }
+          },
+          {
+            "instruction": {
+              "en": "On whatever medium that you are casting from, look for the casting option named 'ScreenCast BF4E6BE6'.",
+              "es": "En cualquier dispositivo desde el que esté transmitiendo, busque la opción de transmisión llamada 'ScreenCast BF4E6BE6'."
+            },
+            "image": "GRO.J5DisplayName.jpg",
+            "alt": {
+              "en": "Pic displaying the mirror casting screen display name",
+              "es": "Imagen que muestra el nombre de la pantalla de transmisión"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
